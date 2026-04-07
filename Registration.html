@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="Registration.css">
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("Are you sure!!")) {
+                txt = "You pressed OK!";
+            } else {
+                txt = "You pressed Cancel!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</head>
+<body>
+    <div >
+    <form>
+        
+        <h1>Registration From</h1>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter name" required>
+        <br><br>
+        <label>Mobile Number:</label><br>
+        <input type="tel" placeholder="Enter mobile number" required>
+        <br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter email">
+        <br><br>
+        <label>Gender:</label><br>
+        <select>
+            <option>Select Option</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+        <label>Work Type:</label><br>
+        <select>
+            <option>Select Option</option>
+            <option>Electrician</option>
+            <option>Plumber</option>
+            <option>Carpenter</option>
+            <option>Painter</option>
+        </select>
+        <br><br>
+        <label>Experience (years):</label><br>
+        <input type="number" min="0">
+        <br><br>
+        <label>Address:</label><br>
+        <input type="text" placeholder="Enter address">
+        <br><br>
+        <center><button type="submit">Register</button></center>
+        
+    
+    </form>
+</div>
+    
+</body>
+</html>

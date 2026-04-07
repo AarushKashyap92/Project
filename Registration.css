@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(labour_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: left;
+}
+
+div{
+    margin: 20px 0px 0px 10%;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    color: #1e3c72;
+}
+
+
+label{
+    color: #1e3c72;
+    font-size: 18px;
+}
+input{
+    width: 95%;
+    height: 30px;
+}
+
+select{
+    width: 97%;
+    height: 35px;
+}
+
+button{
+    color: #d2edfc;
+    background-color: #5495b9;
+    border: transparent;
+    width: 300px;
+    height:40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    color: #5495b9;
+    background-color: #d2edfc;
+}
